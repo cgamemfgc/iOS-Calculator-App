@@ -37,7 +37,7 @@ class CalculatorViewModel: ObservableObject {
     }
     
     // 演算子入力
-    func inputOperator(_ op: CalculatirOperator) {
+    func inputOperator(_ op: CalculatorOperator) {
         model.inputOperator(op)
         updateDisplayText()
     }

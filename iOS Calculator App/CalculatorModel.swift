@@ -16,7 +16,7 @@ enum CalculatorOperator {
 }
 
 // 計算機の状態を定義
-enum CalculatiorState {
+enum CalculatorState {
     case enteringNumber    // 数字入力中
     case operatorSelected  //演算子選択後
     case showingResult  //結果表示中
@@ -34,7 +34,7 @@ class CalculatorModel {
     private var currentOperator: CalculatorOperator = .none
     
     // 計算機の状態
-    private var state: CalculatiorState = .enteringNumber
+    private var state: CalculatorState = .enteringNumber
     
     // 入力中の文字列（数字と小数点）
     private var inputString: String = "0"
