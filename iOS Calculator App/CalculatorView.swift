@@ -4,8 +4,8 @@
 //
 //  Created by Takeshi Sakamoto on 2025/03/08.
 //
-import Foundation
 import SwiftUI
+import Foundation
 
 struct CalculatorView: View {
     // 計算機モデルのインスタンス
