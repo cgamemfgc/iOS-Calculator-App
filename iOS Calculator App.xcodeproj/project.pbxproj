@@ -29,9 +29,33 @@
 		52C8E2CD2D7739C4004E6A19 /* iOS Calculator AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Calculator AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		52C8E2E92D7C2D4C004E6A19 /* Exceptions for "iOS Calculator App" folder in "iOS Calculator App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CalculatorViewModel.swift,
+			);
+			target = 52C8E2B22D7739C2004E6A19 /* iOS Calculator App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		52C8E2EA2D7C2D4C004E6A19 /* Exceptions for "iOS Calculator App" folder in "Copy Bundle Resources" phase from "iOS Calculator App" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 52C8E2B12D7739C2004E6A19 /* Resources */;
+			membershipExceptions = (
+				CalculatorViewModel.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		52C8E2B52D7739C2004E6A19 /* iOS Calculator App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52C8E2E92D7C2D4C004E6A19 /* Exceptions for "iOS Calculator App" folder in "iOS Calculator App" target */,
+				52C8E2EA2D7C2D4C004E6A19 /* Exceptions for "iOS Calculator App" folder in "Copy Bundle Resources" phase from "iOS Calculator App" target */,
+			);
 			path = "iOS Calculator App";
 			sourceTree = "<group>";
 		};
