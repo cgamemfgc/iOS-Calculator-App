@@ -38,8 +38,9 @@ struct CalculatorView: View {
                     .lineLimit(1)
                     .minimumScaleFactor(0.5)
                     .padding(.trailing, 20)
+                    .foregroundColor(.white)
             }
-            
+
             // ボタン配置エリア
             VStack(spacing: 12){
                 HStack(spacing: 12){
